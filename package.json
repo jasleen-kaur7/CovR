@@ -1,0 +1,23 @@
+{
+  "name": "covr",
+  "version": "1.0.0",
+  "description": "Covid Resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasleen-kaur7/CovR.git"
+  },
+  "author": "Jasleen Kaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasleen-kaur7/CovR/issues"
+  },
+  "homepage": "https://github.com/jasleen-kaur7/CovR#readme",
+  "engines": {
+    "node": "14.17.6"
+  }
+}
