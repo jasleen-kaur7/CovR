@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Covid Resource",
   "main": "index.js",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "twit": "^2.2.11",
+    "uniq": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
