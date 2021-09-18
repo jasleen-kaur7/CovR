@@ -162,7 +162,7 @@
             let city = document.getElementById("city").value
             let type = document.getElementById("type").value
             // let url = getNonRetweetedTweetsByKeywordsAndDateURL(city)
-            fetch(`https://gentle-headland-89379.herokuapp.com/gettweets?city=${city}&type=${type}`).then(r => r.json()).then((data) => {
+            fetch(`https://guarded-atoll-55868.herokuapp.com/gettweets?city=${city}&type=${type}`).then(r => r.json()).then((data) => {
                 console.log("Got the Data ", data)
                 setData(data.tweets);
             }).catch(console.log)
