@@ -148,12 +148,14 @@
             const table =document.createElement("table")
             table.classList.add("table");
             const thead = document.createElement("thead")
-            thead.innerHTML ='<td style="background-color: #004d66; color:white;"> Resources </td>'
+            thead.innerHTML ='<td style="background-color: #004d66; color:white;"> # </td><td style="background-color: #004d66; color:white;"> Resources </td>'
             table.appendChild(thead);
+            let count=1
             data.statuses.forEach(status => {
                 const statusElt = document.createElement("tr")
-                statusElt.innerHTML = `<td>${status.full_text}</td>`
+                statusElt.innerHTML = `<td>${count}</td><td>${status.full_text}</td>`
                 table.appendChild(statusElt);
+                count=count+1;
             })
             tweetsDiv.appendChild(table);
 
